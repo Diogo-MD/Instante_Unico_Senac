@@ -461,12 +461,12 @@ figcaption p {
         width: 100%;
         height: 800px;
         
-
+    }
     .wrapper .carrousel {
         max-width: 480px;   
     }
     
-    .wrapper
+
     .carrousel img {
         width: 100%;
         object-fit: cover;
@@ -550,4 +550,3 @@ figcaption p {
         width: 100%;
     }
     }
-}
