@@ -1,0 +1,514 @@
+@charset "UTF-8";
+@import url();
+@import url();
+
+body {
+    font-family: verdana /* Por enquanto */;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+/* Seção header */
+#topo {
+    text-align: center;
+    background-color: #740000;
+    border: solid 2px #000;
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo do header */
+.logotipo img {
+    display: flex;
+    margin: 10px 0 0 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border: solid 2px #740000;
+}
+
+#nav a {
+    width: 100%;
+    padding: 0px;
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#nav a:hover {
+    color: #ffffff;
+    transition: 1s;
+    border-bottom: solid 1px #000000;
+}
+
+#nav a:hover {
+    background: #740000;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+#menu a {
+    display: block;
+    /* padding: 8px; */
+}
+
+#btn-mobile {
+    display: none;
+}
+/* Fim do header*/
+
+
+
+/* Inicio do footer */
+.logotipo-footer img {
+    margin: 10px 0 0 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border: solid 2px #740000;
+}
+
+
+#fim {
+   
+    width: 100%;
+   
+    padding: 0;
+    background-color: #740000;
+    border: solid 1px #000;
+}
+
+.pai {
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-footer ul li , h3 {
+    position: relative;
+    right: 10px;
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+
+.redes-sociais li {
+    position: relative;
+    right: 10px;
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.assinatura span {
+   display: flex;
+   color: #fff;
+   position: relative;
+   bottom: 15px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   width: 95%;
+}
+/* Fim do footer */
+
+
+
+/* Página principal */
+#conteudo-meio-home {
+    margin: 0;
+    background-color: #111;
+}
+
+.cont-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    background-color: #111;
+
+}
+
+.bannerp img {
+    width: 100%;
+}
+
+.bannerp figcaption {
+    position: relative;
+    bottom: 175px;
+    left: 50px;
+    width: 50px;
+    color: #ffffff;
+    font-size: 25pt;
+}
+
+.button-bannerp  {
+    padding: 12px;
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    border-radius: 30px;
+    background: none;
+    text-decoration: none;
+}
+
+.bannerp, figcaption, .button-bannerp a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.wrapper .carrousel {
+    max-width: 280px;   
+}
+
+.carrousel img {  
+    width: 300px;
+    object-fit: cover;
+    
+}
+/* Fim da Página Principal */
+
+
+
+/* Página Seção Fotos */
+
+#conteudo-meio article {
+    padding: 0;
+    background-color: #ffffff;
+}
+
+#conteudo-meio {
+    margin: 30px auto;
+}
+
+#conteudo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conteudo-card img {
+    width: 100%;
+    height: 280px;
+    border-radius: 15px 15px 0 0;
+    background-size:auto;
+   
+}
+
+.card {
+    width: 210px;
+    margin-top: 60px;
+    background-color: #740000;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    border: solid 2px #000000;
+
+}
+
+
+/* Fim da pagina Seção Fotos */
+
+
+
+/* Inicio da Página Login */
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 480px;
+}
+
+.card-formulario {
+    border-radius: 10px;
+    border: solid 3px #740000;
+    background-color: #f1f1f1;
+    font-weight: bold;
+    color: #000000;
+    width: 400px;
+    height: 250px;
+    text-align: center;
+}
+
+.card-formulario #login-p {
+    margin-top: 40px;
+}
+
+#entrar {
+    width: 25%;
+    box-shadow: 1px 2px 8px 0px #000;
+    margin-top: 20px;
+    border-radius: 9px;
+    font-weight: 1000;
+    padding: 6px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#entrar:hover {
+    background-color: #0084ff;
+    transition: background-color 1s;
+}
+/* Fim da página Login */
+
+
+
+/* Inicio da Página Sobre Nós */
+.conteudo-meio-sn {
+  width: 100%;
+  height: 500px;
+  margin: 0;
+} 
+
+.conteudo-meio-sn img {
+    width: 100%;
+    height: 800px;
+}
+.bannersn img {
+    height: 1200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.bannersn p {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    left: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+figcaption p {
+    width: 100%;
+}
+
+.bannersn {
+    background-image: url(../img/imagemsite/bannerpgsobre.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sobrenos {
+    margin:  auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+/* 1º Primeira media query */
+@media (max-width: 699px) {
+    
+    #btn-mobile {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 107px;
+        right: 0;
+        background: #740000;
+        font-weight: bold;
+        z-index: 1000;
+        height: 10px;
+        transition: .5s;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        height: calc(100vh - 58%);
+        display: flex;
+        flex-direction: column;
+        visibility: visible;
+        border-bottom: solid 1px #ffffff;
+    }
+
+    #menu a  {
+        padding: 1rem 0;
+        border-bottom: solid 1px #ffffff;
+    }
+
+    #btn-mobile {
+        position: absolute;
+        right: 0;
+        top: 48px;
+        margin-right: 20px;
+        display: flex;
+        justify-content: end;
+        border-radius: 4px;
+        background-color: #740000;
+        color: #ffffff;
+        padding: 15px ;
+        border: solid 2px #ffffff;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    #btn-mobile:hover {
+        border-color: #000000;
+        transition: border-color 1s;
+    }
+
+}
+
+
+
+
+/* 2º Segunda media query */
+@media (min-width: 699px) {
+    
+    #conteudo-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 0px 30px 0px 30px;
+        
+    }
+
+    #menu a {
+        position: relative;
+        right: 150px;
+        bottom: -6px;
+        padding: 10px;
+        border-radius: 20px;
+        border: solid 0px #000;
+        color: #ffffff;
+        font-weight: bold;
+        border-radius: 3px;
+    }
+
+    #menu a:hover {
+        background-color: #ffffff;
+        transition: 1s;
+        color: #000;
+        
+    }
+
+    .cont-meio {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .formulario {
+        display: flex;  
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .bannerp figcaption {
+        position: relative;
+        bottom: 250px;
+    }
+
+    .wrapper .carrousel {
+        max-width: 380px;   
+    }
+    
+    .wrapper
+    .carrousel img {
+        width: 100%;
+        object-fit: cover;
+        
+    }
+}
+
+
+
+
+/* 3º Terceira media query */
+@media (min-width: 850px){
+
+    #conteudo-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 0;    
+    }
+
+    .cont-meio {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .formulario {
+        display: flex;  
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    #conteudo-card img {
+        object-fit: contain;
+        object-fit: cover;
+    }
+
+    .bannerp img {
+        height: 600px;
+    }
+
+    .bannerp figcaption {
+        position: relative;
+        bottom: 350px;
+}
+
+
+
+
+@media (min-width: 1625px){
+
+    #conteudo-card img {
+        object-fit: contain;
+        object-fit: cover;
+    }
+
+    .cont-meio {
+        display: flex;
+        margin: 0 auto;
+        max-width: 1450px;
+    }
+
+    .bannerp img {
+        height: 700px;
+    }
+}
+}
