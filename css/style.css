@@ -273,13 +273,13 @@ body {
 /* Inicio da Página Sobre Nós */
 .conteudo-meio-sn {
   width: 100%;
-  height: 500px;
+  height: 100px;
   margin: 0;
 } 
 
 .conteudo-meio-sn img {
     width: 100%;
-    height: 800px;
+
 }
 .bannersn img {
     height: 1200px;
@@ -287,30 +287,50 @@ body {
     width: 100%;
 }
 
-.bannersn p {
-    position: relative;
-    height: 100vh;
-    display: flex;
-    left: 300px;
-    align-items: center;
-    justify-content: center;
-}
-
 figcaption p {
     width: 100%;
 }
 
-.bannersn {
-    background-image: url(../img/imagemsite/bannerpgsobre.jpg);
+.bannersn h2 {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    top: 650px;
+    background-color: #f1f1f175;
+    width: 79%;
+    margin-left: 35px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 9px;
+
 }
+
+.bannersn #para1 {
+    width: 80%;
+    position: absolute;
+    top: 690px;
+    color: #000;
+    background-color: #f1f1f175;
+    margin-left: 25px;
+    padding: 5px;
+    margin-top: 25px;
+    font-size: 15pt;
+    border-radius: 9px;
+    text-align: justify ;
+}
+
+.bannersn #para2 {
+    width: 80%;
+    position: absolute;
+    top: 690px;
+    color: #000;
+    background-color: #f1f1f175;
+    margin-left: 25px;
+    padding: 5px;
+    margin-top: 138px;
+    font-size: 15pt;
+    border-radius: 9px;
+    text-align: justify;
+}
+
 
 .sobrenos {
     margin:  auto;
@@ -436,8 +456,14 @@ figcaption p {
         bottom: 250px;
     }
 
+    .cont-home {
+        
+        width: 100%;
+        height: 800px;
+        
+
     .wrapper .carrousel {
-        max-width: 380px;   
+        max-width: 480px;   
     }
     
     .wrapper
@@ -489,9 +515,21 @@ figcaption p {
     .bannerp figcaption {
         position: relative;
         bottom: 350px;
+    }
+
+    .wrapper .carrousel {
+        max-width: 650px;   
+        
+    }
+    
+    .wrapper
+    .carrousel img {
+        width: 100%;
+        object-fit: cover;
+        
+    }
+        
 }
-
-
 
 
 @media (min-width: 1625px){
@@ -508,7 +546,8 @@ figcaption p {
     }
 
     .bannerp img {
-        height: 700px;
+        height: 775px;
+        width: 100%;
     }
-}
+    }
 }
